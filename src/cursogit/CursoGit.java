@@ -22,11 +22,13 @@ public class CursoGit {
         Scanner sc = new Scanner(System.in);
         Persona persona = new Persona();
         
-        persona.setApellidos("Rodrigo");
-                
-        System.out.println(persona.toString());
+        persona.setNombres("Rodrigo");
+        persona.setApellidos("Segovia");
+        persona.setEdad(18);
         
+        persona.toString();
       
+        
         
     }
     
