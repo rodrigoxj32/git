@@ -26,9 +26,6 @@ public class CursoGit {
         persona.setEdad(15);
                 
         System.out.println(persona.toString());
-        
-      
-        
     }
     
 }
