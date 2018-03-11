@@ -23,10 +23,11 @@ public class CursoGit {
         Persona persona = new Persona();
         
         persona.setApellidos("Rodrigo");
+        persona.setNombres("Daniel");
                 
         System.out.println(persona.toString());
         
-      
+        
         
     }
     
