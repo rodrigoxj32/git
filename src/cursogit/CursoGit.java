@@ -23,6 +23,7 @@ public class CursoGit {
         Persona persona = new Persona();
         
         persona.setApellidos("Rodrigo");
+        persona.setEdad(15);
                 
         System.out.println(persona.toString());
         
