@@ -20,12 +20,23 @@ public class CursoGit {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner sc = new Scanner(System.in);
+<<<<<<< HEAD
 
         Estudiante estu = new Estudiante();
       
         estu.setCarrera("Ingenieria");
         
         System.out.println(estu.toString());
+=======
+        Persona persona = new Persona();
+        
+        persona.setApellidos("Rodrigo");
+        persona.setNombres("Daniel");
+                
+        System.out.println(persona.toString());
+        
+        
+>>>>>>> 32025bbe4b3c930f2e336a45a0c3ca795a0cdb69
         
     }
     
